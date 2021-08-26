@@ -25,8 +25,7 @@ $url1 = "https://passwordwolf.com/api/?length=$len&numbers=$numbers&upper=$upper
 #
 ####
 
-$response = Invoke-WebRequest -Uri $url1 -UseBasicParsing
-$passwords = $response | ConvertFrom-Json
+$passwords = Invoke-RestMethod -Uri $url1 -UseBasicParsing
 
 clear
 
