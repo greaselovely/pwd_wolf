@@ -19,7 +19,7 @@ $repeat=10
 # Use the following URL to accept all defaults:
 # $url1 = "https://passwordwolf.com/api/"
 #
-# This uses the 
+# This uses the variables above.
 $url1 = "https://passwordwolf.com/api/?length=$len&numbers=$numbers&upper=$upper&lower=$lower&special=$special&exclude=$exclude&repeat=$repeat"
 #
 #
