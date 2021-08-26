@@ -13,3 +13,5 @@ I wrote this in a closed environment using tools that were readily available and
 # Variables
 
 Change them as needed.  For instance turn everything off except special characters and see the 'hilarious' passwords it generates.
+
+<hr>
