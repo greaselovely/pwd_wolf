@@ -1,3 +1,4 @@
+#!/usr/bin/env pwsh
 ####
 # Get password from password wolf, and copy chosen password to clipboard 
 # README.md: API call for x number of passwords to generate, then displays a menu to select one to copy to clipboard.
