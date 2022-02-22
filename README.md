@@ -1,3 +1,11 @@
+# gen_pwd.py
+
+Ported the original PowerShell script over to Python.  
+
+# Tested on
+
+Windows, MacOS
+
 # gen_pwd.ps1
 
 A PowerShell script that retrieves passwords from  <a href="https://passwordwolf.com" target="_blank">PasswordWolf</a>, shows you all the passwords generated, and allows you to select one.  Once you select the password, it copies it to your clipboard.
