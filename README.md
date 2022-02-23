@@ -34,4 +34,4 @@ PowerShell supported script to generate passwords and copy to the clipboard.
 
 # Tested on
 
-Windows, Mac OSX, Ubuntu
+Windows, MacOS, Ubuntu
