@@ -24,7 +24,7 @@ clear
 
 Write-Host
 # Ask the user how many passwords they want.  
-[int]$nop = Read-Host '  How many passwords? '
+[int]$nop = Read-Host '  How many passwords? [9]: '
 
 # if the user enters 0 or nothing, then use the int value above
 # otherwise assign the number of passwords given by the user to $repeat
