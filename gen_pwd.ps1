@@ -37,12 +37,12 @@ elseif ($nop -gt $maximum) {
 }
 
 # Use the following URL to accept all defaults:
-# $url1 = "https://passwordwolf.com/api/"
+# $URL = "https://passwordwolf.com/api/"
 #
 # This uses the variables above:
-$url1 = "https://passwordwolf.com/api/?length=$length&numbers=$numbers&upper=$upper&lower=$lower&special=$special&exclude=$exclude&repeat=$repeat"
+$URL = "https://passwordwolf.com/api/?length=$length&numbers=$numbers&upper=$upper&lower=$lower&special=$special&exclude=$exclude&repeat=$repeat"
 #
-$passwords = Invoke-RestMethod -Uri $url1 -UseBasicParsing
+$passwords = Invoke-RestMethod -Uri $URL -UseBasicParsing
 
 clear
 
