@@ -2,7 +2,11 @@ import os
 import sys
 from time import sleep
 import requests
-import pyperclip as pc
+try:
+    import pyperclip as pc
+except ModuleNotFoundError:
+    print("\n\n\tRequires pyperclip to be installed\n\n")
+    sys.exit()
 
 
 def clear():
