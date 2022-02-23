@@ -86,7 +86,7 @@ else:
         ans = 0
 
 # If you enter anything else other than what is available, you get a smartass reply and you get to start over.
-if ans <= 0 or ans > max(pwd_dict.keys()) or ans == '':
+if ans <= 0 or ans > len(pwd_dict) or ans == '':
     print("\tHilarious...\n\n")
 else:
     pc.copy(pwd_dict.get(ans))
