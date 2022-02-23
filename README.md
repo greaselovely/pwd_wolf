@@ -2,32 +2,36 @@
 
 Retrieves passwords from  <a href="https://passwordwolf.com" target="_blank">PasswordWolf</a>, shows you all the passwords generated, and allows you to select one.  Once you select the password, it copies it to your clipboard.
 
+# Variables
+
+Change them as needed.  For instance turn everything off except special characters and see the 'hilarious' passwords it generates.
+
+<hr><hr>
+
+# gen_pwd.sh
+
+Bash v4 supported shell script to generate passwords and copy to the clipboard.  Use of this script is when you are on a Linux workstation in a local terminal session, NOT a SSH session to a remote system.  xclip is used and only interacts with the local UI.
+
+# Tested on:
+
+Ubuntu
+
 <hr><hr>
 
 # gen_pwd.py
 
-Ported the original PowerShell script over to Python.  
+Python v3 supported script to generate passwords and copy to the clipboard.
 
 # Tested on
 
 Windows, MacOS
 
-<hr>
+<hr><hr>
 
 # gen_pwd.ps1
 
-The original PowerShell script.
+PowerShell supported script to generate passwords and copy to the clipboard.
 
 # Tested on
 
 Windows, Mac OSX, Ubuntu
-
-# Why PowerShell?
-
-I wrote this in a closed environment using tools that were readily available and it was pretty easy and 'fun' to do.  I'll probably fart around on a python one for fun too.
-
-# Variables
-
-Change them as needed.  For instance turn everything off except special characters and see the 'hilarious' passwords it generates.
-
-<hr>
