@@ -24,7 +24,7 @@ Python v3 supported script to generate passwords and copy to the clipboard.
 
 # Tested on
 
-Windows, MacOS
+Windows, MacOS, Ubuntu
 
 <hr><hr>
 
