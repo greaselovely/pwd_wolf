@@ -86,8 +86,8 @@ done
 # If there's only 1 password generated, then copy to the clipboard and exit.
 if [[ "$nop" -eq 1 ]]
     then
-        # !!!do xclip stuff here!!!
-        echo ${pwd_dict[1]} | xclip
+        # Copy to clipboard
+        echo ${pwd_dict[1]} | xclip -sel clip
         echo -e "\n\tPassword Copied\n\n"
         exit 0
 # Otherwise choose which password you want from the list.
@@ -105,8 +105,8 @@ if [[ "$ans" -le 0 ]] || [[ "$ans" -gt "$pwdlen" ]] || [[ "$ans" == "" ]]
     then
         echo -e "\tHilarious...\n\n"
     else
-        # !!!do xclip stuff here!!!
-        echo ${pwd_dict[$ans]} | xclip
+        # Copy to clipboard:
+        echo ${pwd_dict[$ans]} | xclip -sel clip
         echo -e "\tPassword #$ans Copied\n\n"
 fi
 
