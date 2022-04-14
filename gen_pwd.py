@@ -67,9 +67,9 @@ clear()
 
 pwd_dict = {}
 print()
-for i, p in enumerate(passwords):
-    pwd_dict[i+1] = p['password']
-    print(f"\t{i+1}. {p['password']}")
+for i, p in enumerate(passwords, start=1):
+    pwd_dict[i] = p['password']
+    print(f"\t{i}. {p['password']}")
 
 print('\n')
 
